@@ -1,0 +1,301 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "point-comparison;handle-various-input-formats",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Handle various input formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 796196100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 40871099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 465636400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the tool should display \"Input is required.\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68177000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 41653000
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;handle-various-input-formats",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Handle various input formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 737673100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82015300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 610687199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the tool should display \"Please enter more than 1 point\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26417199
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35477499
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;handle-various-input-formats",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Handle various input formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 715608200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 43938400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 a,0\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 430062699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the tool should display \"Please make sure the input follows the format required\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64389799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27198800
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;handle-various-input-formats",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Handle various input formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 728259699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 82131499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 1,1\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1040793299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the tool should display \"Valid input\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32881500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28395000
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "point-comparison",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Point Comparison",
+    "tags": [],
+    "uri": "features\\pointComparison.feature"
+  }
+]
