@@ -25,7 +25,7 @@ This repository contains an automated test framework designed to cover various t
 The project is organized as follows:
 
 ```plaintext
-DroneDeploy-FlightBookingTests
+FB-QA-Exercise
 │
 ├── cucumber.mjs         # Cucumber configuration file
 ├── features             # Directory containing feature files
