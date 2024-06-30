@@ -14,7 +14,7 @@ import { ITestCaseHookParameter } from '@cucumber/cucumber/lib/support_code_libr
 import { ensureDir } from 'fs-extra';
 
 let browser: ChromiumBrowser | FirefoxBrowser | WebKitBrowser;
-const tracesDir = 'traces';
+const tracesDir = 'reports';
 
 declare global {
   // eslint-disable-next-line no-var
@@ -75,13 +75,6 @@ After(async function (this: CustomWorld, { result }: ITestCaseHookParameter) {
     if (result.status !== Status.PASSED) {
       const image = await this.page?.screenshot();
       image && (await this.attach(image, 'image/png'));
-      await this.context?.tracing.stop({
-        path: `${tracesDir}/${this.testName}-${
-          this.startTime?.toISOString().split('.')[0]
-        }trace.zip`,
-      });
-
-      await browser.close();
     }
   }
   await this.page?.close();

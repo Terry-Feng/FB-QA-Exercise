@@ -4,7 +4,7 @@
     "elements": [
       {
         "description": "",
-        "id": "point-comparison;handle-various-input-formats",
+        "id": "format-validation-on-input-and-output;handle-various-input-formats",
         "keyword": "Scenario Outline",
         "line": 3,
         "name": "Handle various input formats",
@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 796196100
+              "duration": 952393700
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "the \"NZ\" home page is ready",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:5"
+              "location": "src\\steps\\pointComparision.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 40871099
+              "duration": 94920600
             }
           },
           {
@@ -36,24 +36,24 @@
             "line": 5,
             "name": "the user inputs \"\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:12"
+              "location": "src\\steps\\pointComparision.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 465636400
+              "duration": 1031614000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "the tool should display \"Input is required.\"",
+            "name": "the tool should display message \"Input is required.\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:17"
+              "location": "src\\steps\\pointComparision.steps.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 68177000
+              "duration": 81971700
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 41653000
+              "duration": 23447000
             },
             "embeddings": [
               {
@@ -76,7 +76,7 @@
       },
       {
         "description": "",
-        "id": "point-comparison;handle-various-input-formats",
+        "id": "format-validation-on-input-and-output;handle-various-input-formats",
         "keyword": "Scenario Outline",
         "line": 3,
         "name": "Handle various input formats",
@@ -86,7 +86,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 737673100
+              "duration": 765877400
             }
           },
           {
@@ -95,11 +95,11 @@
             "line": 4,
             "name": "the \"NZ\" home page is ready",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:5"
+              "location": "src\\steps\\pointComparision.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 82015300
+              "duration": 39072199
             }
           },
           {
@@ -108,24 +108,24 @@
             "line": 5,
             "name": "the user inputs \"0,0\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:12"
+              "location": "src\\steps\\pointComparision.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 610687199
+              "duration": 372662900
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "the tool should display \"Please enter more than 1 point\"",
+            "name": "the tool should display message \"Please enter more than 1 point\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:17"
+              "location": "src\\steps\\pointComparision.steps.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 26417199
+              "duration": 41030099
             }
           },
           {
@@ -133,7 +133,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 35477499
+              "duration": 57007800
             },
             "embeddings": [
               {
@@ -148,7 +148,7 @@
       },
       {
         "description": "",
-        "id": "point-comparison;handle-various-input-formats",
+        "id": "format-validation-on-input-and-output;handle-various-input-formats",
         "keyword": "Scenario Outline",
         "line": 3,
         "name": "Handle various input formats",
@@ -158,7 +158,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 715608200
+              "duration": 708655600
             }
           },
           {
@@ -167,11 +167,11 @@
             "line": 4,
             "name": "the \"NZ\" home page is ready",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:5"
+              "location": "src\\steps\\pointComparision.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 43938400
+              "duration": 72560999
             }
           },
           {
@@ -180,24 +180,24 @@
             "line": 5,
             "name": "the user inputs \"0,0 a,0\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:12"
+              "location": "src\\steps\\pointComparision.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 430062699
+              "duration": 414351599
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "the tool should display \"Please make sure the input follows the format required\"",
+            "name": "the tool should display message \"Please make sure the input follows the format required\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:17"
+              "location": "src\\steps\\pointComparision.steps.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 64389799
+              "duration": 68390799
             }
           },
           {
@@ -205,7 +205,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 27198800
+              "duration": 26806500
             },
             "embeddings": [
               {
@@ -220,7 +220,7 @@
       },
       {
         "description": "",
-        "id": "point-comparison;handle-various-input-formats",
+        "id": "format-validation-on-input-and-output;handle-various-input-formats",
         "keyword": "Scenario Outline",
         "line": 3,
         "name": "Handle various input formats",
@@ -230,7 +230,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 728259699
+              "duration": 696399299
             }
           },
           {
@@ -239,11 +239,11 @@
             "line": 4,
             "name": "the \"NZ\" home page is ready",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:5"
+              "location": "src\\steps\\pointComparision.steps.ts:6"
             },
             "result": {
               "status": "passed",
-              "duration": 82131499
+              "duration": 45191999
             }
           },
           {
@@ -252,24 +252,24 @@
             "line": 5,
             "name": "the user inputs \"0,0 1,1\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:12"
+              "location": "src\\steps\\pointComparision.steps.ts:13"
             },
             "result": {
               "status": "passed",
-              "duration": 1040793299
+              "duration": 319744500
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 6,
-            "name": "the tool should display \"Valid input\"",
+            "name": "the tool should display message \"Valid input\"",
             "match": {
-              "location": "src\\steps\\pointComparision.steps.ts:17"
+              "location": "src\\steps\\pointComparision.steps.ts:24"
             },
             "result": {
               "status": "passed",
-              "duration": 32881500
+              "duration": 67982700
             }
           },
           {
@@ -277,7 +277,977 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 28395000
+              "duration": 29088700
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "format-validation-on-input-and-output;handle-various-input-formats",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Handle various input formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 692076999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41344499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 1,1 2,2 3,3 4,4 5,5 6,6 7,7 8,8 9,9 10,10\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 526085999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the tool should display message \"Error: Exceeds max pairs\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:24"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5023674199,
+              "error_message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator('//div[contains(@class, \"feedback\")]')\nExpected string: \u001b[32m\"Error: Exceeds max pairs\"\u001b[39m\nReceived string: \u001b[31m\"Valid input\"\u001b[39m\nCall log:\n  \u001b[2m- locator._expect with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator('//div[contains(@class, \"feedback\")]')\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\u001b[2m  -   locator resolved to <div class=\"valid-feedback\">Valid input</div>\u001b[22m\n\u001b[2m  -   unexpected value \"Valid input\"\u001b[22m\n\n    at Proxy.<anonymous> (C:\\Users\\letti\\Documents\\Code\\js\\FB-QA-Exercise\\node_modules\\playwright\\lib\\matchers\\expect.js:172:37)\n    at CustomWorld.<anonymous> (C:\\Users\\letti\\Documents\\Code\\js\\FB-QA-Exercise\\src\\steps\\pointComparision.steps.ts:26:71)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 94873200
+            },
+            "embeddings": [
+              {
+                "data": "Status: FAILED. Duration:5s",
+                "mime_type": "text/plain"
+              },
+              {
+                "data": "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gwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMLPwcuzAAAM3ElEQVRgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAAAAAAAIAACYMBAAAAAAAAAiQMBgAAAAAAAAiQMBgAAAAAAAAgQMJgAAAAAAAAgAAJgwEAAAAAAAACJAwGAAAAAAAACJAwGAAAAAAAACBAwmAAAAAAAACAAAmDAQAAAAAAAAIkDAYAAAAAAAAIkDAYAAAAAAAAIEDCYAAA/n97dkADAACAMMj+qe3xQQ0GAAAAAPTIYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAABAkAwGAAAAAAAACJLBAAAAAAAAAEEyGAAAAAAAACBIBgMAAAAAAAAEyWAAAAAAAACAIBkMAAAAAAAAECSDAQAAAAAAAIJkMAAAAAAAAECQDAYAAAAAAAAIksEAAAAAAAAAQTIYAAAAAAAAIEgGAwAAAAAAAATJYAAAAAAAAIAgGQwAAAAAAAAQJIMBAAAAAAAAgmQwAAAAAAAAQJAMBgAAAAAAAAiSwQAAAAAAAABBMhgAAAAAAAAgSAYDAAAAAAAABMlgAAAAAAAAgCAZDAAAAAAAABAkgwEAAAAAAACCZDAAAAAAAADAeg5hO2Jl9QwpRwAAAABJRU5ErkJggg==",
+                "mime_type": "image/png"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "format-validation-on-input-and-output;check-output-formats",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Check output formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 693472599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77415899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user inputs \"0,0 0,1\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 823780800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the closest points are \"0.0,0.0\" and \"0.0,1.0\" with distance \"1.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 89690200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the furthest points are \"0.0,0.0\" and \"0.0,1.0\" with distance \"1.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84234799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the average distance between all points is \"1.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68459399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27389800
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "format-validation-on-input-and-output;check-output-formats",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Check output formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 712294600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68009799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user inputs \"0,0 0,0\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 778380900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the closest points are \"0.0,0.0\" and \"0.0,0.0\" with distance \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 186695100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the furthest points are \"0.0,0.0\" and \"0.0,0.0\" with distance \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62284800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the average distance between all points is \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6186499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 24187900
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "format-validation-on-input-and-output;check-output-formats",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Check output formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 749100399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 194879499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user inputs \"0,0 0,-4\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1090403200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the closest points are \"0.0,0.0\" and \"0.0,-4.0\" with distance \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 171938699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the furthest points are \"0.0,0.0\" and \"0.0,-4.0\" with distance \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56036500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the average distance between all points is \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13221799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 37930799
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "format-validation-on-input-and-output;check-output-formats",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Check output formats",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 770404200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 84850000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "the user inputs \"0,0 0.123,1.123\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 887154800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the closest points are \"0.0,0.0\" and \"0.1,1.1\" with distance \"1.13\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 238210399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the furthest points are \"0.0,0.0\" and \"0.1,1.1\" with distance \"1.13\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 27213499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the average distance between all points is \"1.13\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22752400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35157400
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "format-validation-on-input-and-output",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Format validation on input and output",
+    "tags": [],
+    "uri": "features\\formatValidation.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "point-comparison;calculate-closest,-furthest,-and-average-distances",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Calculate closest, furthest, and average distances",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 709074899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77077900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 0,1 3,4\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 984643700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the expected closest distance is \"1.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 106863399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the expected furthest distance is \"5.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16545900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the average distance between all points is \"3.41\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66669299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30983799
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;calculate-closest,-furthest,-and-average-distances",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Calculate closest, furthest, and average distances",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 703287100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 85582099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 0,0 0,0 0,0\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 830016999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the expected closest distance is \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30946799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the expected furthest distance is \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69889100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the average distance between all points is \"0.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 60098299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32783899
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;calculate-closest,-furthest,-and-average-distances",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Calculate closest, furthest, and average distances",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 698722900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34910700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 3,5.196 6,0\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 767457800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the expected closest distance is \"6.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 30969100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the expected furthest distance is \"6.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46196200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the average distance between all points is \"6.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80538700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 32481600
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;calculate-closest,-furthest,-and-average-distances",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Calculate closest, furthest, and average distances",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 689090399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41339500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 0,-4\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 788951000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the expected closest distance is \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 107618699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the expected furthest distance is \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13825800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the average distance between all points is \"4.00\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 86066399
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28986300
+            },
+            "embeddings": [
+              {
+                "data": "Status: PASSED. Duration:0s",
+                "mime_type": "text/plain"
+              }
+            ]
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "point-comparison;calculate-closest,-furthest,-and-average-distances",
+        "keyword": "Scenario Outline",
+        "line": 3,
+        "name": "Calculate closest, furthest, and average distances",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 692769200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the \"NZ\" home page is ready",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44512299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user inputs \"0,0 1,1 2,2 3,3 4,4 5,5 6,6 7,7 8,8 9,9\" and click analyze button",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 821734000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the expected closest distance is \"1.41\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 172156000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the expected furthest distance is \"12.73\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29785600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the average distance between all points is \"5.19\"",
+            "match": {
+              "location": "src\\steps\\pointComparision.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37501700
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23777199
             },
             "embeddings": [
               {

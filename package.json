@@ -4,7 +4,9 @@
   "description": "This repository contains an automated test framework designed to cover various test cases for coordinate points comparison. This is for assessment purposes.",
   "main": "index.js",
   "scripts": {
-    "e2e:test": "cucumber-js"
+    "e2e:test": "cucumber-js",
+    "e2e:inputValidation": "cucumber-js --tags @searchFlight",
+    "e2e:parallel": "cucumber-js --retry 2 --parallel 5"
   },
   "keywords": [],
   "author": "Terry Feng",

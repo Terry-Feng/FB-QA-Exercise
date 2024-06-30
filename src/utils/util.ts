@@ -1,21 +1,13 @@
-function equalsIgnoreCase(str1: string, str2: string): boolean {
-    return str1.toLowerCase() === str2.toLowerCase();
-}
+function calculateDistance(pointA: string, pointB: string) {
 
-function getDateByOffset(offset: number): string {
-    const today = new Date();
-    const targetDate = new Date(today.getTime() + offset * 24 * 60 * 60 * 1000);
-    const day = targetDate.getDate().toString().padStart(2, '0');
-    const month = (targetDate.getMonth() + 1).toString().padStart(2, '0'); // 月份从0开始，所以要加1
-    return `${day}/${month}`;
-}
+    const [x1, y1] = pointA.split(',').map(Number);
+    const [x2, y2] = pointB.split(',').map(Number);
 
-function isNumber(value: any): boolean {
-    return typeof value === 'number' && !isNaN(value);
+    const distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+
+    return distance.toFixed(2);
 }
 
 export  {
-    equalsIgnoreCase,
-    getDateByOffset,
-    isNumber
+    calculateDistance
 };
