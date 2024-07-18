@@ -12,19 +12,21 @@ jobs:
   e2e-test:
     runs-on: ubuntu-latest
 
+    container:
+      image: mcr.microsoft.com/playwright:focal
+
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Set up Node.js
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v3
       with:
-        node-version: '16' # 你可以根据需要更改 Node.js 版本
+        node-version: '16' # 使用 Node.js 16
 
     - name: Install dependencies
       run: |
         npm install
-        npx playwright install
 
     - name: Run E2E tests
       env:
@@ -33,7 +35,7 @@ jobs:
 
     - name: Upload test report
       if: always()
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: test-report
         path: reports/report.html
