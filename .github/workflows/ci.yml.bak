@@ -44,6 +44,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: e2e-test  # 等待 e2e-test 作业完成后再执行
+    if: always()
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
@@ -52,5 +53,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@3.7.1
       with:
         ACCESS_TOKEN: ${{ secrets.TEST_TOKEN }}
-        BRANCH: gh-pages  # 修改为你的 GitHub Pages 分支
+        BRANCH: main  # 修改为你的 GitHub Pages 分支
         FOLDER: reports  # 替换为你的 HTML 报告文件夹路径
