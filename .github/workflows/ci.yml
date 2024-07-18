@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: mcr.microsoft.com/playwright:focal
+      image: mcr.microsoft.com/playwright:focal  # 使用 Playwright 的 Docker 镜像
 
     steps:
     - name: Checkout repository
@@ -27,15 +27,30 @@ jobs:
     - name: Install dependencies
       run: |
         npm install
+        npx playwright install
 
     - name: Run E2E tests
       env:
         HEADLESS: 'true'
       run: npm run e2e:test
 
-    - name: Upload test report
-      if: always()
-      uses: actions/upload-artifact@v3
+    - name: Upload HTML report
+      if: always()  # 无论测试是否失败都执行上传报告的步骤
+      uses: actions/upload-artifact@v2
       with:
         name: test-report
-        path: reports/report.html
+        path: reports/report.html  # 替换为实际的 HTML 报告文件路径
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: e2e-test  # 等待 e2e-test 作业完成后再执行
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@3.7.1
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages  # 修改为你的 GitHub Pages 分支
+        FOLDER: reports  # 替换为你的 HTML 报告文件夹路径
