@@ -22,8 +22,8 @@ jobs:
         node-version: '16' # 你可以根据需要更改 Node.js 版本
 
     - name: Install dependencies
-      run: npx playwright install 
       run: npm install
+      run: npx playwright install 
 
     - name: Run E2E tests
       env:
