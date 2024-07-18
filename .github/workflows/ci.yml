@@ -26,7 +26,7 @@ jobs:
         docker buildx build \
           --file Dockerfile \
           --tag ${IMAGE_REPO_E2E}:latest \
-          .
+          --load .
 
     - name: Run the BDD test from latest built docker container
       run: |
