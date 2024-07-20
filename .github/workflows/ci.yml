@@ -62,7 +62,7 @@ jobs:
       if: always()
       id: allure-report
       with:
-        allure_result: temp
+        allure_result: reports
         allure_history: allure-history
         allure_report: report
         keep_report: 20

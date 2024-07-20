@@ -59,7 +59,7 @@ jobs:
         
     - name: generate report
       uses: simple-elf/allure-report-action@master
-      if: always
+      if: always()
       id: allure-report
       with:
         allure_result: temp
