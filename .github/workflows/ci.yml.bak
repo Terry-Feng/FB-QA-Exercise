@@ -53,5 +53,6 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4  # 使用更新版本的 GitHub Pages 部署操作
       with:
         ACCESS_TOKEN: ${{ secrets.TEST_TOKEN }}
-        BRANCH: main  # 修改为你的 GitHub Pages 分支
+        BRANCH: gh-pages  # 修改为你的 GitHub Pages 分支
         FOLDER: docs  # 替换为你的 HTML 报告文件夹路径
+        CLEAN: true
