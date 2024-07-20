@@ -49,9 +49,27 @@ jobs:
     - name: Move reports to docs
       run: mv reports docs
 
+    - name: get allure history
+      uses: actions/checkout@v4
+      if: always()
+      continue-on-error: true
+      with: 
+        ref: gh-pages
+        path: gh-pages
+        
+    - name: generate report
+      uses: simple-elf/allure-report-action@master
+      if: always
+      id: allure-report
+      with:
+        allure_result: temp
+        allure_history: allure-history
+        allure_report: report
+        keep_report: 20
+      
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3  # 使用更新版本的 GitHub Pages 部署操作
       with:
         github_token: ${{ secrets.TEST_TOKEN }}
         publish_branch: gh-pages  # 修改为你的 GitHub Pages 分支
-        publish_dir: reports  # 替换为你的 HTML 报告文件夹路径
+        publish_dir: allure-history  # 替换为你的 HTML 报告文件夹路径
