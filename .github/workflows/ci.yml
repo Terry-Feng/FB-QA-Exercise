@@ -60,9 +60,9 @@ jobs:
       if: always()
       id: allure-report
       with:
-        allure_result: ../reports/allure-results
+        gh_pages: gh-pages
         allure_history: allure-history
-        allure_report: report
+        allure_results: reports/allure-results
         keep_report: 20
       
     - name: Deploy to GitHub Pages
@@ -70,4 +70,4 @@ jobs:
       with:
         github_token: ${{ secrets.TEST_TOKEN }}
         publish_branch: gh-pages  # 修改为你的 GitHub Pages 分支
-        publish_dir: report # 替换为你的 HTML 报告文件夹路径
+        publish_dir: allure-history # 替换为你的 HTML 报告文件夹路径
