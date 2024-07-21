@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jul 21 04:22:17 GMT 2024","Sun Jul 21 04:22:19 GMT 2024","1939","","Calculate closest, furthest, and average distances","","","","Calculate closest, furthest, and average distances",""
+"passed","Sun Jul 21 04:22:13 GMT 2024","Sun Jul 21 04:22:15 GMT 2024","1963","","Check output formats","","","","Check output formats",""
+"passed","Sun Jul 21 04:22:10 GMT 2024","Sun Jul 21 04:22:11 GMT 2024","1234","","Handle various input formats","","","","Handle various input formats",""
