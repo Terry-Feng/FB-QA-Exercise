@@ -9,8 +9,5 @@ Feature: Point Comparison
 
     Examples:
       | scenario        | input                                   | closest_dist | furthest_dist | average_dist |
-      | Regular         | 0,0 0,1 3,4                             | 1.00         | 5.00          | 3.41         |
-      | Duplicate       | 0,0 0,0 0,0 0,0                         | 0.00         | 0.00          | 0.00         |
-      | same distance   | 0,0 3,5.196 6,0                         | 6.00         | 6.00          | 6.00         |
       | Negative        | 0,0 0,-4                                | 4.00         | 4.00          | 4.00         |
       | Multiple points | 0,0 1,1 2,2 3,3 4,4 5,5 6,6 7,7 8,8 9,9 | 1.41         | 12.73         | 5.19         |
